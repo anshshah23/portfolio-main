@@ -63,7 +63,7 @@ const Hero = () => {
 
           <Type />
 
-          <a title="about" href="#about" className="pt-10">
+          <a title="about" href="#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

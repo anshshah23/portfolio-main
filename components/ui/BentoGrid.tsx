@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "MongoDb", "Javascript", "TailwindCSS"];
+  const rightLists = ["NextJS", "GraphQL", "NodeJS", "ExpressJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -141,7 +141,7 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 opacity-40 md:opacity-100">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
@@ -184,11 +184,11 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "Email is Copied!" : "Copy email"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
+                otherClasses="!bg-[#161A31] hover:bg-[#161A31] !text-[#C1C2D3] hover:text-[#C1C2D3] !shadow-input dark:shadow-3xl"
               />
             </div>
           )}
