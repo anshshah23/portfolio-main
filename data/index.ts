@@ -12,7 +12,7 @@ export const gridItems = [
   {
     id: 1,
     title: "Client Collaboration",
-    description: "I prioritize client collaboration, fostering open communication",
+    description: "I prioritize",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60v h]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -22,7 +22,7 @@ export const gridItems = [
   {
     id: 2,
     title: "Embracing new challenges",
-    description: "I am always eager to learn and grow",
+    description: "Learn & grow!",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -32,7 +32,7 @@ export const gridItems = [
   {
     id: 3,
     title: "Tech Stack",
-    description: "Immersed in the latest technologies and frameworks",
+    description: "Latest",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -62,11 +62,11 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Lets Connect",
-    description: "Collaboration",
+    title: "Lets Collaborate",
+    description: "Keen to work",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    titleClassName: "justify-center md:max-w-full max-w-60",
     img: "",
     spareImg: "",
   },
@@ -117,6 +117,26 @@ export const projects = [
 
 export const testimonials = [
   {
+    quote:
+      "Collaborating with Ansh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ansh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ansh is the ideal partner.",
+    name: "Dr. Komal",
+    title: "Founder, Dr. Komal's Wellness",
+  },{
+    quote:
+      "Collaborating with Ansh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ansh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ansh is the ideal partner.",
+    name: "Dr. Komal",
+    title: "Founder, Dr. Komal's Wellness",
+  },{
+    quote:
+      "Collaborating with Ansh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ansh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ansh is the ideal partner.",
+    name: "Dr. Komal",
+    title: "Founder, Dr. Komal's Wellness",
+  },{
+    quote:
+      "Collaborating with Ansh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ansh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ansh is the ideal partner.",
+    name: "Dr. Komal",
+    title: "Founder, Dr. Komal's Wellness",
+  },{
     quote:
       "Collaborating with Ansh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ansh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ansh is the ideal partner.",
     name: "Dr. Komal",

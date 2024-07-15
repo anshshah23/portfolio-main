@@ -21,7 +21,7 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight className="left-80 top-28 h-[100vh] w-[50vw]" fill="blue" />
       </div>
 
       {/**
@@ -63,7 +63,7 @@ const Hero = () => {
 
           <Type />
 
-          <a title="about" href="#about">
+          <a title="about" href="#about" className="pt-10">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
