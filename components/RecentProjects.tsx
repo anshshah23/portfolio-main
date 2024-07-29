@@ -1,7 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Image from "next/image";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -9,8 +9,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        Recent{" "}
-        <span className="text-purple"> Projects</span>
+        Recent <span className="text-purple">Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -18,20 +17,24 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="Projects"
-              href="https://anshshah23.vercel.app"
-            >
+            <PinContainer title="Projects" href="https://anshshah23.vercel.app">
               <div className="relative flex items-center justify-center sm:w-96 w-[90vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image
+                    src="/bg.png"
+                    alt="bgimg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <img
+                <Image
                   src={item.img}
                   alt="cover"
+                  layout="fill"
+                  objectFit="contain"
                   className="z-10 absolute bottom-0"
                 />
               </div>
@@ -60,7 +63,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image src={icon} alt="icon" width={32} height={32} className="p-2" />
                     </div>
                   ))}
                 </div>
@@ -70,9 +73,11 @@ const RecentProjects = () => {
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                  ><p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  >
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                       Check Live Site
-                    </p></a>
+                    </p>
+                  </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
