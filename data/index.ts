@@ -105,12 +105,12 @@ export const projects = [
     link: "https://weather-app-byansh.vercel.app/",
   },
   {
-    id: 4,
-    title: "Neo Travels - Future of Space Travel",
-    des: " Won the `Best Design` award in the `TechNext` hackathon. `Neo Travels` is a futuristic travel website I developed to showcase my design and development skills. I designed the site using Figma and developed it using React.js, Tailwind CSS, and Framer Motion. The site features a sleek, modern design with smooth animations and transitions. I created this project to demonstrate my frontend development skills and provide a platform to share my work with the world.",
-    img: "/p5.svg",
+    id: 5,
+    title: "PrepNudge",
+    des: "PrepMaster is a platform designed to help students and aspirants prepare for interviews by providing valuable insights from seniors and mentors who have gone through the interview process. The website allows users to enter and access detailed information about interview rounds, including questions asked, tips, and feedback. Enables easy data entry and retrieval, while offering a secure and anonymous environment for contributors.",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg",],
-    link: "https://neo-travels.vercel.app/",
+    link: "https://prepmaster-one.vercel.app/",
   },
 ];
 
