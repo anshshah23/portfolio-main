@@ -180,16 +180,30 @@ export const workExperience = [
   {
     id: 1,
     title: "Fullstack Django Intern",
-    desc: "@Brainvire Infotech - Assisted in the development of a web-based platform GemFind using React.js, enhancing interactivity. Researched on integration of Django with IBM Cognos for data visualization.",
+    desc: "@Brainvire Infotech - Assisted in developing GemFind using React.js and Django, enhancing interactivity and usability. Researched integration of Django with IBM Cognos for analytics and dashboards.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-   },
+  },
   {
     id: 2,
-    title: "Fullstack Developer",
-    desc: "Developed and maintained Dr. Komal's Wellness, a web-based platform for a wellness clinic, using React.js and Django. Integrated payment gateways and appointment scheduling features.",
+    title: "Machine Learning Intern",
+    desc: "@Investacc Insurance Brokers Pvt. Ltd. - Built machine learning risk scoring models using XGBoost and neural networks. Designed end-to-end ML pipelines for financial risk assessment and classification.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Fullstack Developer Intern",
+    desc: "@Board Gameiac - Developed a full-stack booking and management platform using React.js and Node.js with PostgreSQL. Built role-based access control and optimized admin workflows.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 4,
+    title: "Fullstack Developer",
+    desc: "Developed and maintained Dr. Komal's Wellness platform using React.js and Django. Integrated appointment scheduling, user authentication, and payment systems.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
   },
 ];
 
