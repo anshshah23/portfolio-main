@@ -6,7 +6,7 @@ const Type = () => {
     <div className="text-2xl sm:text-4xl mt-4 font-semibold">
       <Typewriter
         options={{
-          strings: ["Web Developer", "Competitive Coder", "AI/ML Enthusiast"],
+          strings: ["Web Developer", "Data Scientist", "AI/ML Developer"],
           autoStart: true,
           loop: true,
           delay: 70,
